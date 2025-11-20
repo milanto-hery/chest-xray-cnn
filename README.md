@@ -54,14 +54,15 @@ You must download the Chest X-Ray Pneumonia dataset (Kaggle) and place it like t
 ## 🚀 How to Use This Project
 Use the Jupyter Notebook located in: src/chest_xray_notebook.ipynb
 
-🎓 The Notebook Includes:
-  ✔ Data loading
-  ✔ Exploratory plots
-  ✔ Sample images from each class
-  ✔ Model creation
-  ✔ Model training
-  ✔ Evaluation
-  ✔ Grad-CAM heatmaps
+🎓 The Notebook Includes: 
+
+- Data loading
+- Exploratory plots
+- Sample images from each class
+- Model creation
+- Model training
+- Evaluation
+- Grad-CAM heatmaps
 
 ▶ How to run
 
