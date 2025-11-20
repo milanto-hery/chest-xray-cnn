@@ -15,39 +15,39 @@ The project includes:
 
 ### 📂 Repository Structure
 
-  chest-xray-classifier/
-  │
-  ├── README.md
-  ├── requirements.txt
-  │
-  ├── src/
-  │   ├── train.py
-  │   ├── model.py
-  │   ├── utils.py
-  │   └── chest_xray_notebook.ipynb
-  │
-  └── data/ ← (user must add dataset here)
+        chest-xray-classifier/
+        │
+        ├── README.md
+        ├── requirements.txt
+        │
+        ├── src/
+        │   ├── train.py
+        │   ├── model.py
+        │   ├── utils.py
+        │   └── chest_xray_notebook.ipynb
+        │
+        └── data/ ← (user must add dataset here)
 
 
 ### 📥 Dataset Setup
 You must download the Chest X-Ray Pneumonia dataset (Kaggle) and place it like this:
 
-  data/
-  │
-  ├── train/
-  │   ├── normal/
-  │   └── pneumonia/
-  │   └── tuberculosis/
-  │
-  ├── val/
-  │   ├── normal/
-  │   └── pneumonia/
-  │   └── tuberculosis/
-  │
-  └── test/
-      ├── normal/
-      └── pneumonia/
-      └── tuberculosis/
+        data/
+        │
+        ├── train/
+        │   ├── normal/
+        │   └── pneumonia/
+        │   └── tuberculosis/
+        │
+        ├── val/
+        │   ├── normal/
+        │   └── pneumonia/
+        │   └── tuberculosis/
+        │
+        └── test/
+            ├── normal/
+            └── pneumonia/
+            └── tuberculosis/
 
 ## 🚀 How to Use This Project
 Use the Jupyter Notebook located in: src/chest_xray_notebook.ipynb
