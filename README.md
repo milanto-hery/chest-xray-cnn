@@ -9,13 +9,11 @@ Dataset: https://www.kaggle.com/datasets/muhammadrehan00/chest-xray-dataset
 
 The project includes:
 
-A clean training notebook
+- A clean training notebook
 
-Modular Python scripts (src/)
+- Modular Python scripts (src/)
 
-Grad-CAM visualization
-
-Easy-to-run instructions for both beginners and developers
+- Grad-CAM visualization
 
 ### 📂 Repository Structure
 
@@ -36,40 +34,38 @@ Easy-to-run instructions for both beginners and developers
 ### 📥 Dataset Setup
 You must download the Chest X-Ray Pneumonia dataset (Kaggle) and place it like this:
 
-                                        data/
-                                        │
-                                        ├── train/
-                                        │   ├── normal/
-                                        │   └── pneumonia/
-                                        │   └── tuberculosis/
-                                        │
-                                        ├── val/
-                                        │   ├── normal/
-                                        │   └── pneumonia/
-                                        │   └── tuberculosis/
-                                        │
-                                        └── test/
+                                data/
+                                │
+                                ├── train/
+                                │   ├── normal/
+                                │   └── pneumonia/
+                                │   └── tuberculosis/
+                                │
+                                ├── val/
+                                │   ├── normal/
+                                │   └── pneumonia/
+                                │   └── tuberculosis/
+                                │
+                                └── test/
                                             ├── normal/
                                             └── pneumonia/
                                             └── tuberculosis/
 
 ## 🚀 How to Use This Project
-Use the Jupyter Notebook located in:
+Use the Jupyter Notebook located in: src/chest_xray_notebook.ipynb
 
-src/chest_xray_notebook.ipynb
 🎓 The Notebook Includes:
-✔ Data loading
-✔ Exploratory plots
-✔ Sample images from each class
-✔ Model creation
-✔ Model training
-✔ Evaluation
-✔ Grad-CAM heatmaps
+  ✔ Data loading
+  ✔ Exploratory plots
+  ✔ Sample images from each class
+  ✔ Model creation
+  ✔ Model training
+  ✔ Evaluation
+  ✔ Grad-CAM heatmaps
 
 ▶ How to run
-bash
-Copy code
-pip install -r requirements.txt
 
-jupyter notebook src/chest_xray_notebook.ipynb
-This is the easiest and most complete way to understand the entire pipeline.
+  pip install -r requirements.txt
+
+  jupyter notebook src/chest_xray_notebook.ipynb
+
