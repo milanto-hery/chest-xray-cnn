@@ -1,4 +1,4 @@
-## 🩺 Chest X-Ray Disease Classification  
+# Chest X-Ray Disease Classification  
 
 This repository contains a Convolutional Neural Network (CNN) baseline model for classifying chest X-ray images into three classes:
 - **Normal**
