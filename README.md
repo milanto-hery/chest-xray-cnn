@@ -19,6 +19,21 @@ Easy-to-run instructions for both beginners and developers
 
 ### 📂 Repository Structure
 
+data/
+│
+├── train/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
+│
+├── val/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
+│
+└── test/
+    ├── NORMAL/
+    └── PNEUMONIA/
+
+
 chest-xray-classifier/
 │
 ├── README.md
